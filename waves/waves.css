@@ -1,0 +1,38 @@
+#container-countdown {
+    display: flex;
+    justify-content: center;
+}
+
+#countdown {
+    font-size: 50px;
+    margin: 10px;
+    background: (to right,#cfcdbe, #d3d786);
+    border-radius: 20px;
+    padding: 20px;
+    color:#b9b9b9;
+}
+
+#myVideo {
+    position: fixed;
+    top: 0;
+    right: 0;
+    min-width: 100%;
+    min-height: 100%;
+    z-index: -10;
+}
+
+#myButton {
+    display: none;
+}
+
+@media all and (max-width:500px) {
+    #myButton {
+        display: block;
+        padding: 10px;
+        background: linear-gradient(to right, #cfcdbe, #d3d786);
+        border-radius: 20px;
+    }
+    body {
+        background: linear-gradient(to right, #cfcdbe, #d3d786);
+    }
+}

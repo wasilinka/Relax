@@ -1,0 +1,43 @@
+#header {
+    display: flex;
+    justify-content: center;
+}
+
+h1 {
+    font-family: "Radio Canada Big", sans-serif;
+    font-size: 60px;
+    font-weight: bold;
+    color: #d3d786;
+    position: fixed;
+    text-shadow: 1px 1px 2px rgb(197, 105, 14), 0 0 1em blue, 0 0 0.2em blue;
+}
+
+#btn {
+    margin-top: 200px;
+    background: rgb(162, 162, 157);
+    padding: 25px;
+    border-radius: 20px;
+    border: none;
+    font-size: 15px;
+}
+
+#btn:hover {
+    background: linear-gradient(to right, #cfcdbe, #d3d786);
+}
+
+a {
+    text-decoration: none;
+    font-family: "Radio Canada Big", sans-serif;
+    font-size: 25px;
+    color: rgb(92, 92, 92);
+    font-weight: bolder;
+}
+
+#myVideo {
+    position: fixed;
+    top: 0;
+    right: 0;
+    min-width: 100%;
+    min-height: 100%;
+    z-index: -10;
+}
